@@ -1,0 +1,56 @@
+{
+  "name": "datezen",
+  "version": "1.0.0",
+  "description": "The headless date & range picker hooks for React that Radix never shipped. Zero styles, zero dependencies, fully accessible.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "demo": "vite",
+    "gif": "node scripts/capture.mjs"
+  },
+  "keywords": [
+    "react",
+    "datepicker",
+    "date-picker",
+    "daterange",
+    "date-range",
+    "range-picker",
+    "headless",
+    "calendar",
+    "accessible",
+    "aria",
+    "hooks"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "playwright": "^1.60.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.4.21",
+    "vitest": "^1.6.0"
+  }
+}
