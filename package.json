@@ -1,7 +1,7 @@
 {
   "name": "pickday",
   "version": "1.0.0",
-  "description": "The headless date & range picker hooks for React that Radix never shipped. Zero styles, zero dependencies, fully accessible.",
+  "description": "The headless date & range picker hooks for React. Zero styles, zero dependencies, fully accessible.",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
