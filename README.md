@@ -13,7 +13,7 @@
 
 <br />
 
-![pickday — headless date and range picker for React](./assets/demo.gif)
+![pickday — headless date and range picker for React](https://raw.githubusercontent.com/MaansiBisht/pickday/main/assets/demo.gif)
 
 </div>
 
