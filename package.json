@@ -1,5 +1,5 @@
 {
-  "name": "datezen",
+  "name": "pickday",
   "version": "1.0.0",
   "description": "The headless date & range picker hooks for React that Radix never shipped. Zero styles, zero dependencies, fully accessible.",
   "type": "module",

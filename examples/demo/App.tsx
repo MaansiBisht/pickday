@@ -65,7 +65,7 @@ export function App() {
           </footer>
         </div>
       </div>
-      <p className="tag">datezen — headless date &amp; range picker hooks for React</p>
+      <p className="tag">pickday — headless date &amp; range picker hooks for React</p>
     </div>
   );
 }

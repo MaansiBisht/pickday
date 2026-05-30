@@ -1,27 +1,27 @@
 <div align="center">
 
-# 🗓️ datezen
+# 🗓️ pickday
 
 ### Headless date & range picker hooks for React.
 
 **Zero styles. Zero dependencies. Fully accessible. ~2.3 KB.**
 
-[![npm version](https://img.shields.io/npm/v/datezen.svg?style=flat-square)](https://www.npmjs.com/package/datezen)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/datezen?style=flat-square&label=gzip)](https://bundlephobia.com/package/datezen)
-[![types](https://img.shields.io/npm/types/datezen?style=flat-square)](https://www.npmjs.com/package/datezen)
-[![license](https://img.shields.io/npm/l/datezen?style=flat-square)](./LICENSE)
+[![npm version](https://img.shields.io/npm/v/pickday.svg?style=flat-square)](https://www.npmjs.com/package/pickday)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/pickday?style=flat-square&label=gzip)](https://bundlephobia.com/package/pickday)
+[![types](https://img.shields.io/npm/types/pickday?style=flat-square)](https://www.npmjs.com/package/pickday)
+[![license](https://img.shields.io/npm/l/pickday?style=flat-square)](./LICENSE)
 
 <br />
 
-![datezen — headless date and range picker for React](./assets/demo.gif)
+![pickday — headless date and range picker for React](./assets/demo.gif)
 
 </div>
 
 ---
 
-## Why datezen?
+## Why pickday?
 
-Most date pickers either render their own markup — so you fight their DOM to restyle them — or pull in a full design system plus a separate date library. datezen takes the headless approach: it hands you selection state and accessible prop-getters, and **you render every pixel** with any styling solution and no extra dependencies.
+Most date pickers either render their own markup — so you fight their DOM to restyle them — or pull in a full design system plus a separate date library. pickday takes the headless approach: it hands you selection state and accessible prop-getters, and **you render every pixel** with any styling solution and no extra dependencies.
 
 ```tsx
 const { month, getGridProps, getDayProps } = useDatePicker();
@@ -41,7 +41,7 @@ const { month, getGridProps, getDayProps } = useDatePicker();
 ## Install
 
 ```bash
-npm i datezen
+npm i pickday
 ```
 
 > `react >= 16.8` is a peer dependency (hooks).
@@ -49,7 +49,7 @@ npm i datezen
 ## Quick start — single date
 
 ```tsx
-import { useDatePicker } from "datezen";
+import { useDatePicker } from "pickday";
 
 export function DatePicker() {
   const { month, getGridProps, getDayProps, prevButtonProps, nextButtonProps } =
@@ -92,12 +92,12 @@ export function DatePicker() {
 }
 ```
 
-You write plain buttons; datezen makes them keyboard- and screen-reader-accessible automatically.
+You write plain buttons; pickday makes them keyboard- and screen-reader-accessible automatically.
 
 ## Range picker — with presets & live preview
 
 ```tsx
-import { useDateRangePicker } from "datezen";
+import { useDateRangePicker } from "pickday";
 
 export function RangePicker() {
   const {
@@ -161,7 +161,7 @@ useDateRangePicker({
 
 ## Styling (it's all yours)
 
-datezen never sets a class or style. Drive your CSS off the `DayCell` flags via `data-*` attributes:
+pickday never sets a class or style. Drive your CSS off the `DayCell` flags via `data-*` attributes:
 
 ```css
 .cal__day[data-selected]   { background: #2563eb; color: #fff; }
@@ -217,7 +217,7 @@ Spreading the prop-getters gives you, for free:
 
 ## Comparison
 
-| | datezen | react-day-picker | React Aria |
+| | pickday | react-day-picker | React Aria |
 | --- | :---: | :---: | :---: |
 | Truly headless (no DOM) | ✅ | ❌ | ✅ |
 | Zero dependencies | ✅ | ❌ | ❌ |
